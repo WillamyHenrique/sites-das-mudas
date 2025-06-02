@@ -5,12 +5,16 @@
     font-family: "Poppins", sans-serif;
 }
 body{
-    min-width: 100vh;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
     background-image: url(Design\ sem\ nome.png);
     background-size: cover;
     background-position: center;
     background-color: transparent;
 }
+
 header{
     width: 100%;
     position: fixed;
@@ -20,20 +24,54 @@ header{
 .logo{
    width: 60px;
 }
-nav{
+.logoFooter{
+    width: 40px;
+    height: auto;
+    display: block;
+
+}
+header nav{
     width: 100%;
     display: flex;
     background-color: black;
     
 }
 
-ul{
+header ul{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
     list-style: none;
 }
+
+main{
+    height: 100%;
+    width: 100%;
+    padding: 60px;
+    display: flex;
+    flex: 1;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+}
+
+footer nav{
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer ul{
+    font-size: 10px;
+    list-style: none;
+}
+
 a{
     color: white;
     text-decoration: none;
