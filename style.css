@@ -9,16 +9,14 @@ body{
     margin: 0;
     display: flex;
     flex-direction: column;
-    background-image: url(Design\ sem\ nome.png);
-    background-size: cover;
-    background-position: center;
-    background-color: transparent;
+    background-color: white;
 }
 
 header{
-    width: 100%;
+    width: 90%;
     position: fixed;
-    background: transparent;
+    padding-left: 70px;
+    padding-top: 10px;
 }
 
 .logo{
@@ -33,7 +31,10 @@ header{
 header nav{
     width: 100%;
     display: flex;
-    background-color: black;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     
 }
 
@@ -55,14 +56,19 @@ main{
 
 footer{
     width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
     display: flex;
 }
 
 footer nav{
     width: 100%;
-    background-color: black;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     color: white;
-    text-align: center;
     display: flex;
     justify-content: space-around;
 }
@@ -73,15 +79,17 @@ footer ul{
 }
 
 a{
-    color: white;
+    color: black;
     text-decoration: none;
     border: 1px solid transparent;
     transition: border-color 0.3s;
 }
 
 a:hover{
-    border-color: red;
+    border-color: black ;
 }
+
+
 
 
 
